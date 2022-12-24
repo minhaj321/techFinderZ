@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca24007f.css",
+    "main.js": "/static/js/main.3f0f8db2.js",
+    "static/js/787.d05a8db6.chunk.js": "/static/js/787.d05a8db6.chunk.js",
+    "static/media/bald-mechanic-car-fixing.png": "/static/media/bald-mechanic-car-fixing.dd04871c7d4d240e0f55.png",
+    "static/media/hero-image.png": "/static/media/hero-image.c7954ffb5500b384d287.png",
+    "static/media/sign-up-hero-image.png": "/static/media/sign-up-hero-image.d48dd5ee54a939d6836e.png",
+    "static/media/hero-CardBgImg.png": "/static/media/hero-CardBgImg.9360ad8f003e8c090933.png",
+    "static/media/main-home.png": "/static/media/main-home.3d4e646a4423b8b0f153.png",
+    "static/media/mechanic-fixing-and-smiling-copy.png": "/static/media/mechanic-fixing-and-smiling-copy.bf3f89c3f94ad5d86375.png",
+    "static/media/image-4.png": "/static/media/image-4.633b4e0c15bd64803c46.png",
+    "static/media/car.jpg": "/static/media/car.59fa8a0efde5d55e8d7f.jpg",
+    "static/media/Car1.jpg": "/static/media/Car1.5507a44f698370e93b2e.jpg",
+    "static/media/category.png": "/static/media/category.88bf68eefc96873087b9.png",
+    "static/media/loggedIn.jpg": "/static/media/loggedIn.b65f55c61288826e4b43.jpg",
+    "static/media/engine.jpg": "/static/media/engine.2efcade7f09f7ecb0010.jpg",
+    "static/media/car3.jpg": "/static/media/car3.2c798d4fad2dfb50fbca.jpg",
+    "static/media/certificate.jpg": "/static/media/certificate.f1bd53da91ef789d4e5f.jpg",
+    "static/media/car4.jpg": "/static/media/car4.0710e2700db149979a36.jpg",
+    "static/media/logo.png": "/static/media/logo.3ca45d78273aa7db9e26.png",
+    "static/media/avatarimage.svg": "/static/media/avatarimage.98c6546218c1fbf4202b6e627cabccc0.svg",
+    "static/media/comake-logo.png": "/static/media/comake-logo.a2e1fc49b3135616cb0b.png",
+    "static/media/vector2.svg": "/static/media/vector2.fb6891f4487fda38ca040b159cf5060e.svg",
+    "index.html": "/index.html",
+    "main.ca24007f.css.map": "/static/css/main.ca24007f.css.map",
+    "main.3f0f8db2.js.map": "/static/js/main.3f0f8db2.js.map",
+    "787.d05a8db6.chunk.js.map": "/static/js/787.d05a8db6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca24007f.css",
+    "static/js/main.3f0f8db2.js"
+  ]
+}
