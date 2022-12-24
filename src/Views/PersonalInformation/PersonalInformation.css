@@ -1,0 +1,150 @@
+.personalInfoDiv1{
+    width: 40%;
+    margin: auto;
+}
+.fileEditIcon{
+    background-color: #fff;
+    /* background-color: red; */
+    border-radius: 50px;
+    font-size: 25px !important;
+    padding: 3px;
+    position: relative;
+    left: -30px;
+
+}
+.personalInfoDiv1 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+}
+.personalInfoDiv2{
+    width: 60%;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-shadow:  0px 0px 2px 0px rgb(224, 224, 224);
+    /* margin: auto; */
+}
+.personalInfoDiv2 img{
+    width: 100px;
+}
+.personalInfoDiv2 h2{
+    font-size: 20px;
+    margin-top: 18px;
+    font-weight: 500;
+}
+.personalInfoDiv2 p{
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+}
+.personalInfoDiv2 button{
+    border-radius: 20px;
+    width: 50%;
+    border: none;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 12px;
+    background-color: #40CE98;
+    color: #fff;
+}
+.saveChangesInfoBtn{
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+}
+.PersonalInfoInputMainDiv{
+    background-color: #fff;
+    border: none;
+    box-shadow:  0px 0px 2px 0px rgb(224, 224, 224);
+    height:40px;
+    margin: 20px 0px 0px 0px;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.fullLengthInfoDiv{
+    height:40px;
+    padding: 0px 10px;
+    font-size: 12px;
+    width: 100%;
+    border: none;
+    width: 90%;
+    color: #000;
+
+}
+.fullLengthInfoDiv:focus{
+    outline: none;
+}
+.fullLengthInfoDiv::placeholder{
+    color: #000;
+}
+.personalInfoInputIcon{
+    /* width: 10%; */
+    font-size: 20px !important;
+    margin-left: 5px; 
+}
+
+@media only screen and (max-width:1700px){
+    .personalInfoDiv1{
+        width: 60%;
+    }
+    .personalInfoDiv2{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:1500px){
+    .personalInfoDiv1{
+        width: 70%;
+    }
+    .personalInfoDiv2{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .personalInfoDiv2{
+        width: 96%;
+    }
+}
+
+
+@media only screen and (max-width:899px){
+    .personalInfoDiv1{
+        width: 96%;
+    }
+    .personalInfoDiv2 h2{
+        width: 96%;
+        text-align: center;
+    }
+    .removePR{
+        padding-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width:599px){
+    .personalInfoDiv1{
+        width: 96%;
+    }
+    .personalInfoDiv2{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .personalInfoDiv1 img{
+        height: 70px;
+        width: 70px;
+        margin-left: calc(50% - 35px);
+    }
+}

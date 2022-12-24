@@ -1,0 +1,43 @@
+.orderCompModIcon{
+    margin-right: 5px;
+}
+.oderCompBtn{
+    text-transform: lowercase !important;
+    width: 60% !important;
+}
+.order-complete {
+    height: 100vh;
+    background-color:#F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-complete-div {
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cacaca;
+    height: 400px;
+    background-color: white;
+}
+.img-avatar4{
+    display: flex;
+    justify-content: center;
+}
+.btn-scan-qrcode{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+}
+
+
+@media only screen and (max-width:425px){
+    .order-complete-div {
+        width: 330px !important;
+    }
+}
+

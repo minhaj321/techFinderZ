@@ -1,0 +1,121 @@
+.contactus {
+    object-fit: cover;
+    margin: 0;
+    width: 100% !important;
+    background-image: url('../Asset/engine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.contact-us-heading {
+    text-align: center;
+    color: white;
+    padding: 200px;
+}
+
+.contact-us-page {
+    background-color: white;
+}
+
+.first-section-contact-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-left: 60px !important;
+}
+
+@media only screen and (max-width:1024px) {
+    .second-section-contact-us {
+        margin-left: 60px !important;
+    }
+
+
+}
+
+@media only screen and (max-width:768px) {
+   
+
+   .contact-us-textfield{
+       width: 250px !important;
+   }
+   .contact-us-button{
+    width: 250px !important;
+}
+   .contact-us-image{
+       width: 300px !important;
+       height:440px !important;
+       
+       
+   }
+ 
+
+
+}
+@media only screen and (max-width:425px) {
+   .first-section-contact-us{
+       flex-wrap: wrap;
+   }
+   .contact-us-heading {
+       font-size: 22px !important;
+       
+       
+   }
+
+
+    .contact-us-textfield{
+        width: 250px !important;
+    }
+    .contact-us-button{
+     width: 250px !important;
+ }
+    .contact-us-image{
+        width: 300px !important;
+        height:440px !important;
+        
+        
+    }
+    .contact-us-heading {
+     margin-left:-50px !important;
+    
+ }
+ .contact-us-image{
+     margin-left: 5px !important;
+ }
+ .second-section-contact-us{
+     margin-left: 140px !important;
+ }
+ 
+ 
+ }
+ @media only screen and (max-width:375px) {
+    .contact-us-heading {
+        font-size: 22px !important;
+    }
+    .contact-us-image{
+        margin-left: -25px !important;
+    }
+    .second-section-contact-us{
+        margin-left: 110px !important;
+    }
+ }
+ @media only screen and (max-width:320px) {
+    .contact-us-heading {
+        font-size: 20px !important;
+       
+        margin-left:-80px !important;
+    }
+    .contact-us-image{
+        margin-left: -50px !important;
+    }
+    .second-section-contact-us{
+        margin-left: 85px !important;
+    }
+ }

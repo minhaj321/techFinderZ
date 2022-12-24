@@ -1,0 +1,5 @@
+@media only screen and (max-width:'425px'){
+  .car-textfield TextField{
+      width: 400px;
+  }
+}

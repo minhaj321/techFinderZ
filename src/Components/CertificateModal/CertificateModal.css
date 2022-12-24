@@ -1,0 +1,26 @@
+.certificateModalMain{
+    border: 30px solid #CDCDCD;
+    position: relative;
+}
+.certificateModalAvatar{
+    width: 100%;
+    height: 100%;
+}
+.certificateModalCloseDiv{
+    position: absolute;
+    color: black;
+    top: -27px;
+    display: flex;
+    align-items: center;
+    right: 0px;
+}
+
+@media only screen and (max-width:700px){
+    .certificateModalCloseDiv{
+        font-size: 12px;
+        top: -24px;
+    }
+    .certiModalCloseIcon{
+        font-size: 14px !important;
+    }
+}

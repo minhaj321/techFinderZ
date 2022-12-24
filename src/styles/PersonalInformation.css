@@ -1,0 +1,82 @@
+.personal-information-div{
+    width:85%;
+    height:700px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 60px;
+    
+  
+}
+
+.notification-heading{
+    padding-left: 20px;
+    padding-top: 30px;
+    color:#CDCDD5;
+}
+.switch{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.language-heading{
+    padding-left: 20px;
+    padding-top: 30px;
+    color:#CDCDD5;
+}
+.dropdown-item-button{
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    
+}
+.account-heading{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+@media only screen and (max-width:1024px){
+    .personal-information-div{
+        margin-left: 55px;  
+        width: 88% !important; 
+    }
+    .second-personal-information-portion{
+       margin-left: -10px !important;
+    }
+    .second-personal-information-portion1{
+        margin-left: -10px !important;
+     }
+     .second-personal-information-portion2{
+        margin-left: -10px !important;
+     }
+     .personel-information-textarea{
+         width: 350px !important;
+     }
+    
+}
+@media only screen and (max-width:768px){
+    .personal-information-div{
+        margin-left: 15px;  
+        width: 95% !important; 
+    }
+    .personel-information-textarea{
+        width: 300px !important;
+    }
+    
+    
+}
+@media only screen and (max-width:425px){
+    .personal-information-div{
+        height: 1000px !important;
+    }
+   .personel-info{
+       display: flex !important;
+       flex-direction: column !important;
+   }
+   .btn-save-setting{
+       width: 150px !important;
+   }
+}
+   @media only screen and (max-width:320px){
+   
+    .personel-information-textarea{
+        width: 240px !important;
+    }
+}

@@ -1,0 +1,40 @@
+.comment-div{
+    background-color: #A7A7A7;
+    height: 100vh;
+    position: relative;
+    background-position: top;
+}
+.comment-div1{
+    background-color: white ;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 36%;
+    margin-top:12%;
+   
+}
+
+.comment-avatar-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+}
+.comment-heading {
+    text-align: center;
+    margin-top: 20px !important;
+}
+.comment-textfield{
+    text-align: center;
+}
+.textfield-comment{
+    background-color:#E8E8E8;
+    text-align: center;
+    width: 300px;
+    margin-top: 10px !important;
+    
+}
+.btn-comment-submit{
+    margin-top: 20px !important;
+    width: 200px;
+    background-color: #4958A2;
+}

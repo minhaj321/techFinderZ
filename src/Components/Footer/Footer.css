@@ -1,0 +1,102 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    padding-top: 80px;
+}
+.footerIcon{
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #fff;
+    color: #333333;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.footer-iconDiv{
+display: flex;
+flex-direction: row;
+align-items: center !important;
+justify-content: flex-start !important;
+padding-left: 50px;
+
+}
+.footer-mockup-heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footerParaDiv{
+    width: 80%;
+}
+.footer-paragraph{
+    color: lightgray;
+    font-size: 14px;
+}
+.footerDiv{
+    text-align: left;
+}
+.footer ul li{
+    margin-top: 10px;
+}
+.listUl{
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    
+}
+.footerDiv p{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.listUl li a{
+    
+    text-decoration: none;
+    color:white ;
+}
+
+
+.footer-mockup{
+    margin-top: 20px;
+    margin-left: 60px;
+    color: white;
+}
+.footer-paragraph{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1300px){
+    .footer-mockup{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .footer-mockup{
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (max-width:950px){
+    .footer-paragraph{
+        margin-left: 0px;
+}
+.footer-mockup{
+    margin-left: 0px;
+}
+.footerDiv{
+    text-align: center;
+}
+.footerParaDiv{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.footer-iconDiv{
+    justify-content: center !important;
+    padding-left: 0px;
+}
+}

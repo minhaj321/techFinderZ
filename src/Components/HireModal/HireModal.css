@@ -1,0 +1,148 @@
+.hireModalSelectTab{
+    border : 1px solid gray;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hireModalMain{
+    width: 600px;
+    background-color: #fff;
+}
+.bagIcon{
+    font-size: 18px;
+    margin-top: -4px;
+}
+.hireModalTabBtn{
+    width: 86%;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.selected{
+    background-color: #000;
+    color: #fff;
+}
+.unselected{
+    background-color: #fff;
+    color: #000;
+}
+.hireModalIcon1{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.selectCarMain{
+    width: 90%;
+    margin: auto;
+}
+.selectCarMain textarea{
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+.selectCarMain textarea:focus{
+    outline: none;
+}
+.selectCarMain p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+.carListTitlesMain{
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px;
+}
+.carListCarMain{
+    padding: 15px;
+    font-size: 14px;
+    color: #afafaf;
+    font-style: italic;
+    border: 1px solid #000;
+    margin: 10px 0px;
+}
+.hireModalBottomBtnMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.hireModalBottomUnselected,.hireModalBottomSelected{
+width: 30%;
+height: 45px;
+font-size: 14px;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hireModalBottomSelected{
+background-color: #000;
+color: #fff;
+}
+.hireModalBottomUnselected{
+    color: #000;
+    background-color: #fff;
+}
+.saveGray{
+    background-color: #E2E2E2;
+    color: #000;
+    font-weight: 500;
+}
+.saveBlack{
+    color: #000;
+}
+.saveBlackImg{
+    height: 30px;
+}
+
+@media only screen and (max-width:700px){
+
+    .hireModalMain{
+        width: 450px;
+}
+}
+
+@media only screen and (max-width:460px){
+
+    .hireModalMain{
+        width: 350px;
+}
+.hireModalBottomUnselected,.hireModalBottomSelected{
+    width: 40%;
+    font-size: 13px;
+}
+.addIcon,.bagIcon{
+    font-size: 16px !important;
+}
+.hireModalTabBtn{
+    font-size: 13px !important;
+}
+.hireModalIcon1{
+    font-size: 16px !important;
+    margin-top: -2px;
+}
+.hireModalSelectTab{
+    height: 50px;
+}
+.carListTitlesMain,.carListCarMain{
+    font-size: 12px;
+}
+.saveBlackImg{
+    height: 20px;
+}
+.hireModalTabBtn{
+    height: 35px;
+}
+}

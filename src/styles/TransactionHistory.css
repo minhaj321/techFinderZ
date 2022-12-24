@@ -1,0 +1,90 @@
+.transaction-history-div{
+    width:90%;
+    height:800px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+@media only screen and (max-width:1024px){
+  
+    .transaction-history-heading{
+        font-size: 24px !important;
+        margin-left: 70px !important;
+    }
+    .label-1{
+        width: 150px !important;
+    }
+    .label-2{
+        width: 150px !important;
+    }
+    
+}
+@media only screen and (max-width:768px){
+  
+    .transaction-history-heading{
+        font-size: 17px !important;
+        margin-left: 60px !important;
+    }
+    .label-1{
+        width: 120px !important;
+    }
+    .label-2{
+        width: 150px !important;
+        margin-left: 10px !important;
+    }
+    .showing-heading{
+        font-size: 14px !important;
+    }
+    .arrow-left{
+        font-size: 40px !important;
+    }
+    .arrow-right{
+        font-size: 40px !important;
+    }
+    .pagination{
+        margin-left:50px !important;
+    }
+    .pagination-2{
+       margin-left: 20px !important;
+    }
+    .pagination-3{
+        margin-left: 20px !important;
+     }
+    
+    
+}
+@media only screen and (max-width:425px){
+  
+    .transaction-history-heading{
+        font-size: 15px !important;
+        margin-left: 40px !important;
+        margin-top:50px !important;
+
+    }
+    .transaction-history-div{
+     
+        margin-left: 20px;
+       
+    }
+    .showing-heading{
+       margin-left: 100px !important;
+    }
+    .pagination{
+        margin-left:30px !important;
+    }
+  .transaction-label{
+      display: flex !important;
+      flex-direction: column !important;
+      
+  }
+  .label-1{
+      margin-left:50px !important
+  }
+  .label-2{
+    margin-left:20px !important;
+    width:160px !important
+
+}
+    
+}

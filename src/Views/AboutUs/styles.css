@@ -1,0 +1,32 @@
+.heroDiv{
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width : 1000px){
+    .heroDiv{
+        text-align : center !important;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width : 900px){
+    .aboutP{
+        width: 90vw !important;
+        margin-left: 1vw;
+    }
+}
+
+@media screen and (max-width : 450px){
+    .aboutP{
+        width: 90vw !important;
+        margin-left: 0vw;
+    }
+}

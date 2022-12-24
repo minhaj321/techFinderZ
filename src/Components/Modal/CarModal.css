@@ -1,0 +1,15 @@
+@media only screen and (max-width:425px){
+    .car-modal-textfield{
+        width: 350px !important;
+      }
+}
+@media only screen and (max-width:375px){
+    .car-modal-textfield{
+        width: 300px !important;
+      }
+}
+@media only screen and (max-width:320px){
+    .car-modal-textfield{
+        width: 250px !important;
+      }
+}

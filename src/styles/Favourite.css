@@ -1,0 +1,274 @@
+
+.favourite{
+    margin: 0px;
+    width: 100% !important;
+    background-image: url('../Asset/mechanic-fixing-and-smiling-copy.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 300px !important;
+}
+.favourite-1{
+    background-color: #F6F7F9;
+    /* background-color: red; */
+}
+.favourite-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50%;
+}
+.orders{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 20px !important;
+    font-weight: 500;
+    margin: 0px;
+}
+.marina-heading{
+    margin-bottom: 20px;
+}
+.favourite-avatar img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: -50px;
+}
+.favourite3{
+    width: 96%;
+    margin: auto;
+    margin-top: 50px;
+}
+.titleTile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.favourite-BtnMain{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+}
+.cardMainDiv{
+    display: flex;
+    justify-content: center;
+}
+.cardMainDiv div{
+    margin-top: 10px;
+    box-shadow: none;
+}
+.btn-favourite{
+    background-color: #E2E2E2 !important;
+    color: black !important;
+
+    /* margin-top: 250px !important; */
+    /* margin-left:40px !important; */
+    border-radius: 0px !important;
+    width: 200px !important;
+}
+.favourite-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.favBtnSection{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-hire{
+    background-color: #E2E2E2 !important;
+    color: black !important;
+    margin-top: 250px !important;
+    border-radius: 0px !important;
+    width: 200px !important;
+}
+.btn-schedule{
+    background-color: #E2E2E2 !important;
+    color: black !important;
+    margin-top: 250px !important;
+    border-radius: 0px !important;
+    width: 200px !important;
+}
+.favourite-order{
+    width:100% !important;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height:70px !important;
+    border-radius: 5px;
+    background-color: #E2E2E2 !important;
+    /* margin-left:13px; */
+}
+.about-card4{
+    margin-top: 10px;
+    /* margin-left: 20px !important; */
+}
+.vector-img{
+    display: block;
+    /* margin-left: 420px; */
+    width: 200px;
+    margin-top: 70px;
+    
+}
+
+.eventnodeicon{
+    height: 40px !important;
+}
+.selectedTxt{
+background-color: #fff;
+padding-right: 10px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.selectedIcon{
+background-color: #fff;
+font-size: 32px !important;
+padding-left: 10px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+
+@media only screen and (max-width:1500px){
+    .eventnodeicon{
+        font-size: 20px !important;
+}
+.selectedIcon{
+    padding-left: 10px;
+    font-size: 32px !important;
+}
+.orders{
+    font-size: 18px !important;
+}
+}
+
+@media only screen and (max-width:1030px){
+    .btn-hire{
+        width: 140px !important;
+    }
+    .btn-schedule{
+        padding-left: -5px !important;
+        width: 140px !important;
+        margin-left: 15px !important;
+    }
+    .favourite-order{
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+    .btn-favourite-login{
+        height: 40px !important;
+        width: 200px !important;
+    }
+
+}
+
+@media only screen and (max-width:899px){
+    .favourite-order{
+        max-width: 94% !important;
+        min-width: 94% !important;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .certificates{
+        font-size: 20px !important;
+    }
+    .orders{
+        font-size: 18px !important;
+    }
+    .reviews{
+        font-size: 20px !important;
+    }
+    .eventnodeicon{
+        font-size: 18px !important;
+    }
+    .card-order1{
+        margin-left: 75px !important;
+    }
+    .card-order2{
+        margin-left: 75px !important;
+    }
+    .selectedIcon{
+        padding-left: 10px;
+        font-size: 30px !important;
+    }
+    .order-card1{
+        margin-top: 10px !important;
+    }
+    .btn-favourite{
+        width: 190px !important;
+    }
+    .btn-schedule{
+        padding-left: -5px !important;
+        width: 110px !important;
+        margin-left: 5px !important;
+    }
+    .btn-hire{
+        width: 110px !important;
+        padding-left: -15px !important;
+        margin-left: 5px !important;
+    }
+    .favourite-avatar img{
+        width: 80px !important;
+        height: 80px !important; 
+    }
+}
+@media only screen and (max-width:599px){
+    .favourite-BtnMain{
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .favourite-avatar img{
+        margin-top: 50px;
+        width: 80px !important;
+        height: 80px !important; 
+    }
+.favourite{
+    max-height: 200px;
+}
+.btn-hire,.btn-schedule{
+    margin-top: 125px !important;
+}
+}
+
+@media only screen and (max-width:499px){
+    .orders{
+        font-size: 16px !important;
+    }
+    .eventnodeicon{
+        font-size: 16px !important;
+    }
+    .btn-favourite-login{
+        height: 40px !important;
+        width: 140px !important;
+    }
+    .vector-img{
+        width: 150px;
+    }
+    .selectedIcon{
+        padding-left: 10px;
+        font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width:440px){
+    .orders{
+        font-size: 14px !important;
+    }
+    .eventnodeicon{
+        font-size: 14px !important;
+    }
+    .selectedIcon{
+        padding-left: 10px;
+        font-size: 24px !important;
+    }
+    .selectedTxt{
+        padding-right: 5px;
+    }
+    .favourite-order{
+        min-width: 100% !important;
+    }
+}

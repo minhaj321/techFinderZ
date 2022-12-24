@@ -1,0 +1,10 @@
+.otp-verification-img{
+    object-fit: cover;
+    margin: 0;
+    width: 100% !important;
+    background-image: url('../Asset/engine.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 874px !important;
+}

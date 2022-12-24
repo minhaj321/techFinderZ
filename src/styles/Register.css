@@ -1,0 +1,27 @@
+.sign-up-heading{
+    text-align: center;
+    border: 0px solid grey;
+    border-right-width: 4px; 
+    color: grey;
+    
+}
+.sign-up-heading a{
+    text-decoration: none;
+    color: grey;
+}
+.sign-heading{
+    text-align: center;
+    color: grey;
+}
+.sign-heading a{
+    text-decoration: none;
+    color: grey;
+}
+.signup-heading1 a{
+    text-decoration: none;
+    color:black;
+}
+.forgot-password-heading a{
+    text-decoration: none;
+    color:#7373FF;
+}

@@ -1,0 +1,111 @@
+@media only screen and (max-width:768px){
+    .btn-certificate-delete{
+        margin-left: 10px !important;
+    }
+}
+@media only screen and (max-width:425px){
+    .side-bar-textfield{
+        width: 300px !important;
+    }
+    .side-bar-textfield1{
+        width: 300px !important;
+    }
+    .side-bar-textfield2{
+        width: 300px !important;
+    }
+    .upload-your-file{
+        font-size: 20px !important;
+    }
+    .resoulution-heading{
+        font-size: 15px !important;
+        padding-left: 105px !important;
+    }
+    .drive-folder-icon{
+        font-size: 50px !important;
+        margin-left: 160px !important;
+    }
+    .border-dash{
+        width:320px !important;
+    }
+    .btn-certificate-cancel{
+        width: 170px !important;
+    }
+    .btn-certificate-delete{
+      width: 170px !important;
+    }
+}
+@media only screen and (max-width:375px){
+    .side-bar-textfield{
+        width: 250px !important;
+    }
+    .side-bar-textfield1{
+        width: 250px !important;
+    }
+    .side-bar-textfield2{
+        width: 250px !important;
+    }
+    .upload-your-file{
+        font-size: 20px !important;
+        padding-left: 80px !important;
+    }
+    .resoulution-heading{
+        font-size: 15px !important;
+        padding-left: 75px !important;
+    }
+    .drive-folder-icon{
+        font-size: 50px !important;
+        margin-left: 130px !important;
+    }
+    .border-dash{
+        width:300px !important;
+        margin-left: 12px !important;
+    }
+    .delete-certificate-heading{
+        font-size: 17px !important;
+    }
+    .btn-certificate-cancel{
+        width: 140px !important;
+    }
+    .btn-certificate-delete{
+      width: 140px !important;
+    }
+}
+@media only screen and (max-width:320px){
+    .side-bar-textfield{
+        width: 230px !important;
+    }
+    .side-bar-textfield1{
+        width: 230px !important;
+    }
+    .side-bar-textfield2{
+        width: 230px !important;
+    }
+    .upload-your-file{
+        font-size: 20px !important;
+        padding-left: 60px !important;
+    }
+    .resoulution-heading{
+        font-size: 15px !important;
+        padding-left: 55px !important;
+    }
+    .drive-folder-icon{
+        font-size: 50px !important;
+        margin-left: 110px !important;
+    }
+    .border-dash{
+        width:250px !important;
+        margin-left: 12px !important;
+    }
+    .drag-heading{
+        font-size: 14px !important;
+    }
+    .delete-certificate-heading{
+        font-size: 15px !important;
+    }
+    .btn-certificate-cancel{
+        width: 120px !important;
+    }
+    .btn-certificate-delete{
+      width: 120px !important;
+    }
+}

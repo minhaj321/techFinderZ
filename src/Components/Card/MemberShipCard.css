@@ -1,0 +1,115 @@
+.limited-link{
+    margin-top: 40px ;
+}
+.own-analytics{
+    margin-top: 20px ;
+}
+.chat-support{
+    margin-top: 20px ;  
+}
+.optimize{
+    margin-top: 20px ;   
+}
+.unlimited{
+    margin-top: 20px ; 
+}
+.btn-choose-plan{
+    margin-top: 60px ;
+    width: 100%;
+    background-color: white !important;
+}
+.member-card{
+  
+    margin-left: 20px;
+    width: 50%;
+    
+}
+
+.member-card2{
+  
+    margin-left: 20px;
+    width: 200%;
+}
+.member-card3{
+  
+    margin-left: 20px;
+    background-color: #5372E3 !important;
+
+  
+}
+
+
+
+.membership{
+    display: flex;
+    flex-direction: row;
+}
+.storage{
+    margin-top: 20px;
+    color: white;
+}
+.limited-feature{
+    margin-top: 20px;
+    color: white;   
+}
+.limited-feature-paragraph{
+    margin-top: 20px;
+    color: white;
+}
+.btn-upgrade-plan{
+    background-color: white !important;
+    color: black !important;
+    margin-top: 20px !important;
+    height: 50px !important;
+    border-radius: 40px !important;
+}
+.your-plan{
+  
+    color: white;
+}
+.free{
+    margin-top: 10px;
+    color: white;
+}
+
+@media only screen and (max-width:1024px){
+    .member-ship-card10{
+        margin-left: 80px !important;
+    }
+    .member-card3{
+        width: 210px !important;
+    }
+    .your-plan{
+        font-size: 16px !important;
+    }
+    .free{
+      font-size: 22px !important;
+    }
+    .storage{
+        font-size: 18px !important;
+    }
+    .limited-feature{
+        font-size: 18px !important;
+    }
+    .limited-feature-paragraph{
+        font-size: 12px !important;
+    }
+}
+@media only screen and (max-width:768px){
+    .member-card3{
+        width: 180px !important;
+    }
+    
+}
+@media only screen and (max-width:375px){
+    .member-card3{
+        width: 210px !important;
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .member-card3{
+        width: 210px !important;
+    }
+    
+}

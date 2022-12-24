@@ -1,0 +1,68 @@
+.addNewCarModalMain{
+    width: 500px;
+    padding: 0px 20px;
+}
+.addCarModalInput{
+    border: none;
+    background-color: #E1E1E1;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+}
+.addNewCarModalH2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.addCarModalInput::placeholder{
+    font-weight: 500;
+    color: rgb(63, 62, 62);
+}
+.addCarModalInput:focus{
+    outline: none;
+}
+.addCarModalSubmitBtn{
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    width: 40%;
+    height: 45px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+    font-size: 14px;
+}
+.addCarModalBtn{
+    margin-top: 20px;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    width: 40%;
+    height: 40px;
+}
+.addNewCarModalP{
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:700px){
+    .addNewCarModalMain{
+        width: 400px;
+}
+}
+
+@media only screen and (max-width:460px){
+    .addNewCarModalMain{
+        width: 350px;
+}
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width:425px){
+    .certificate-image{
+        margin-left: 40px !important;
+    }
+} 
+
+@media only screen and (max-width:375px){
+    .certificate-image{
+        margin-left: 20px !important;
+    }
+} 
+@media only screen and (max-width:320px){
+    .certificate-image{
+        margin-left: 10px !important;
+        width: 250px !important;
+    }
+} 

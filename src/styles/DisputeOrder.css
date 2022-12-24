@@ -1,0 +1,566 @@
+.header{
+    width: 100%;
+    height:80px;
+    background-color: white;
+    
+}
+.dispute-order-heading{
+    padding-top: 30px;
+    padding-left: 100px;
+    color: #A7A8AA;
+}
+.dispute-order-div{
+    display: flex;
+    flex-direction: row;
+}
+.bell-icon{
+    padding-top: 30px;
+  
+}
+.setting-icon{
+    padding-top: 30px;
+}
+.dispute-order-avatar{
+    padding-top: 10px;
+   
+}
+.dispute-order-heading1{
+    padding-top: 30px;
+    color:#BABABD
+}
+.dispute-order-heading3{
+    padding-top: 30px;
+    color:#BABABD;
+    padding-left: 10px;
+
+}
+
+.order-card-div1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px !important;
+    margin-top:20px !important;
+}
+.order-card-div2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px !important;
+    margin-top:20px !important;
+    margin-bottom:20px !important ;
+}
+.order-div{
+    width:85%;
+    height: 550px;
+    background-color: white;
+    margin-left:80px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.order-heading{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.notification-div{
+    width:800px ;
+    height:650px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.notification-hr{
+    border-top: 5px dotted #E3E3E8;
+    margin-top:42px !important;
+    margin-left:-45px !important;
+    
+}
+.mint-heading{
+   border-right:8px solid #6160DC;
+   height:70%;
+   margin-top:20px !important;
+   border-bottom-right-radius:5px 5px ;
+   border-top-right-radius: 5px 5px;
+
+   
+
+}
+.mint-heading1{
+    border-right:8px solid #FF4A55;
+    height:70%;
+    margin-top:20px !important;
+    border-bottom-right-radius:5px 5px ;
+    border-top-right-radius: 5px 5px;
+ 
+    
+ 
+ }
+ .mint-heading2{
+    border-right:8px solid #54C5EB;
+    height:70%;
+    margin-top:20px !important;
+    border-bottom-right-radius:5px 5px ;
+    border-top-right-radius: 5px 5px;
+ 
+    
+ 
+ }
+ .notification-heading{
+     margin-left: 10px;
+ }
+.notification-hr1{
+    border-top: 5px dotted #E3E3E8;
+    margin-top:42px !important;
+    margin-left:-5px !important;
+   
+}
+.transaction-detail-div{
+    width:90%;
+    height:820px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.transaction-div2{
+    width:90%;
+    height: 120px;
+    background-color: #F5F5F5;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+@media only screen and (max-width:1440px){
+    
+    .notification-hr{
+     
+        margin-left:-45px !important;
+    }
+    .notification-hr1{
+       
+        margin-left:-5px !important;
+    }
+    .transaction-details{
+        font-size: 28px !important;
+        margin-left: 50px !important;
+    }
+  
+    }
+
+@media only screen and (max-width:1030px){
+.notification-div{
+   width:700px !important;
+   margin-left: 35px !important;
+}
+.notification-hr{
+    width: 20% !important;
+    margin-left:-25px !important;
+}
+.notification-hr1{
+    width: 20% !important;
+}
+.reny-heading{
+    margin-left: 10px !important;
+}
+.date-heading{
+    margin-left: 10px !important;
+}
+.order-div{
+    width:80% !important;
+    /* height: 900px !important; */
+}
+.subtotal{
+    margin-left: 300px !important;
+}
+.arrowbackicon{
+    font-size: 18px !important;
+}
+.order-no-heading{
+    font-size: 16px !important;
+    padding-left: 10px !important;
+}
+.dowload-select{
+    width: 150px !important;
+    height: 50px !important;
+}
+.transaction-detail-heading{
+    font-size: 22px !important;
+}
+.customer-heading{
+    font-size: 20px !important;
+}
+.transaction-avatar{
+    width:70px !important;
+    height:70px !important;
+}
+.whitespace-heading{
+    font-size: 18px !important;
+}
+.guild-street-heading{
+    font-size: 12px !important;
+}
+.united{
+    font-size: 12px !important;
+}
+.contact-heading{
+    font-size: 20px !important; 
+}
+.reciepent-heading{
+    font-size: 20px !important; 
+}
+.location-heading{
+    font-size: 20px !important; 
+}
+.whitespace-heading1{
+    font-size: 12px !important;
+    margin-left: -25px !important;
+}
+.phone-no{
+    font-size: 12px !important;
+    margin-left: -10px !important;
+}
+.name-heading1{
+    font-size: 12px !important;
+}
+.email{
+    font-size: 12px !important;
+    margin-left: -10px !important;
+}
+.kingdom{
+    font-size: 12px !important;
+}
+.payment-type{
+    font-size: 18px !important;
+}
+.paypal{
+    font-size: 18px !important;
+}
+.date1{
+    font-size: 18px !important;
+}
+.date2{
+    font-size: 18px !important;
+}
+.item-description{
+    font-size: 18px !important;
+}
+.lorem-paragraph1{
+    font-size: 14px !important;
+   padding-left: 10px !important;
+}
+.transaction-div2{
+    margin-left: 35px !important;
+}
+.transaction-details{
+    font-size: 24px !important;
+    margin-left: 50px !important;
+}
+.transaction-hr1{
+    width: 85% !important;
+}
+.order-card10{
+    display: none !important;
+}
+.order-card11{
+    display: none !important;
+}
+}
+@media only screen and (max-width:768px){
+    .notification-div{
+       width:500px !important;
+       margin-left: 35px !important;
+    }
+    .notification-hr{
+        width: 20% !important;
+        margin-left:-15px !important;
+        display: none;
+    }
+    .order-card12{
+        margin-top: 20px !important;
+    }
+    .order-card13{
+        margin-top: 20px !important;
+    }
+   
+.order-div{
+    margin-left: 30px !important;
+    width:90% !important;
+    
+}
+    .notification-heading{
+        font-size: 18px !important;
+    
+    }
+    .today-heading{
+        font-size: 18px !important;
+    }
+    .yesterday-heading{
+        font-size: 18px !important;
+    }
+   
+    .mint-heading{
+        height: 65% !important;
+        
+    }
+    .minute-heading{
+        font-size: 14px !important;
+    }
+    .reny-heading1{
+        font-size: 16px !important;
+        margin-left: 10px !important;
+    }
+    .date-heading1{
+        margin-left: 10px !important;
+        font-size: 14px !important;
+   
+    }
+    .avatar{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    .arrowbackicon{
+        font-size: 16px !important;
+    }
+    .order-no-heading{
+        font-size: 14px !important;
+        padding-left: 10px !important;
+    }
+    .print-heading{
+        font-size: 16px !important;
+        margin-left: -20px !important;
+    }
+    .print-icon{
+        font-size: 22px !important;
+    }
+    .dowload-select{
+        width: 140px !important;
+        height: 50px !important;
+        margin-left: -10px !important;
+        
+    }
+    .transaction-detail-div{
+        margin-left: 10px !important;
+        width: 97% !important;
+        height: 740px !important;
+    }
+    .customer-heading{
+        font-size: 16px !important;
+    }
+    .contact-heading{
+        font-size: 16px !important; 
+        
+    }
+    .reciepent-heading{
+        font-size: 16px !important; 
+       
+    }
+    .location-heading{
+        font-size: 16px !important; 
+        
+    }
+    .transaction-avatar{
+        width:60px !important;
+        height:60px !important;
+    }
+    .whitespace-heading{
+        font-size: 14px !important;
+    }
+    .kingdom{
+        font-size: 10px !important;
+        
+    }
+    .name-heading1{
+    font-size: 10px !important;
+    
+    }
+    .email{
+        font-size: 10px !important;
+       
+    }
+    .whitespace-heading1{
+        
+        font-size: 10px !important;
+    }
+    .phone-no{
+       font-size: 10px !important;
+    }
+    .transaction-section2{
+        padding-left: 5px !important;
+    }
+    .transaction-hr{
+        width: 85% !important;
+    }
+    .item-description{
+        font-size: 14px !important;
+    }
+    .payment-type{
+        font-size: 14px !important;
+    }
+    .paypal{
+        font-size: 14px !important;
+    }
+    .date1{
+        font-size: 14px !important;
+    }
+    .date2{
+        font-size: 14px !important;
+    }
+    .lorem-paragraph1{
+        font-size: 10px !important;
+       padding-left: 10px !important;
+    }
+    .transaction-detail-heading{
+        font-size: 18px !important;
+    }
+    .transaction-details{
+        font-size: 20px !important;
+        margin-left: 20px !important;
+    }
+   
+
+    }
+    @media only screen and (max-width:425px){
+        .order-div{
+            margin-left: 15px!important;
+            
+            
+        }
+        .notification-div{
+            width:375px !important;
+            margin-left: 5px !important;
+         }
+        
+         .reny-heading1{
+            font-size: 14px !important;
+            margin-left: 10px !important;
+        }
+        .mint-heading{
+            height: 60% !important;
+            
+        }
+        .item-description{
+            font-size: 10px !important;
+        }
+        .payment-type{
+            font-size: 10px !important;
+        }
+        .paypal{
+            font-size: 10px !important;
+        }
+        .date1{
+            font-size: 10px !important;
+        }
+        .date2{
+            font-size: 10px !important;
+        }
+        .order-no-heading{
+            font-size: 10px !important;
+            
+        }
+        .print-heading{
+            font-size: 12px !important;
+            padding-right: 10px !important;
+            
+        }
+        .print-icon{
+            font-size: 22px !important;
+            padding-right: 10px !important;
+            margin-top: -3px !important;
+        }
+        .dowload-select{
+            width: 140px !important;
+            height: 50px !important;
+            margin-left: -10px !important;
+            
+        }
+        .transaction-section2{
+            display: flex !important;
+            flex-direction: column !important;
+           
+        }
+        .transaction-section3{
+            margin-left: 50px !important;
+        }
+        .transaction-section4{
+            margin-left: 50px !important;
+        }
+        .transaction-section5{
+            margin-left: 50px !important;
+        }
+        .transaction-hr{
+            width: 80% !important;
+        }
+        .transaction-hr1{
+            width: 80% !important;
+        }
+        .transaction-detail-div{
+            height:950px  !important;
+           
+        }
+        .subtotal{
+            margin-left: 220px !important;
+        }
+        .lorem-paragraph1{
+            font-size: 8px !important;
+           
+        }
+        .transaction-div2{
+            height: 90px !important;
+            margin-left: 20px !important;
+        }
+        .select-button{
+           display: flex !important;
+           flex-direction: column !important;
+        }
+        .dowload-select{
+            width: 150px !important;
+            height: 50px !important;
+            }
+        .transaction-section7{
+            margin-left: -20px !important;
+            margin-top: 8px !important;
+        }
+    }
+    @media only screen and (max-width:320px){
+        .order-card{
+            width: 250px !important;
+        }
+        .dispute-date{
+            font-size: 10px !important;
+        }
+        .dispute-customer{
+            font-size: 10px !important;
+        }
+        .dispute-id{
+            font-size: 10px !important; 
+        }
+        .dispute-mechanic-id{
+            font-size: 10px !important;   
+        }
+        .dispute-reason{
+            font-size: 10px !important;   
+        }
+        .dispute-date1{
+            font-size: 10px !important;
+        }
+        .dispute-customer1{
+            font-size: 10px !important;
+        }
+        .dispute-id1{
+            font-size: 10px !important; 
+        }
+        .dispute-mechanic-id1{
+            font-size: 10px !important;   
+        }
+        .dispute-reason1{
+            font-size: 10px !important;   
+        }
+        .dispute-paragraph{
+            font-size: 10px !important;
+            margin-left: 18px !important;
+        }
+        .order-div{
+            margin-left: 20px!important;
+            
+            
+        }
+    }

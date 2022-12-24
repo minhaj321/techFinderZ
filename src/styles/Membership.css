@@ -1,0 +1,183 @@
+.membership-div{
+    height:420px;
+    width: 96%;
+   background-color: white;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.membership-div1{
+    height:450px;
+    width: 96%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.membership-div3{
+    margin-left: -10px !important;
+}
+@media only screen and (max-width:1024px){
+    .membership-div5{
+        margin-left: 10px !important;
+    }
+    .membership-avatar{
+        width: 120px !important;
+        height:120px !important
+    }
+    .member-name{
+        font-size: 22px !important;
+       
+    }
+    .member-mechanic{
+        font-size: 16px !important;
+        
+    }
+   
+    .member-location-icon{
+        font-size: 25px !important;
+    }
+    .member-mail-icon{
+        font-size: 25px !important;  
+    }
+    .member-call-icon{
+        font-size: 25px !important; 
+    }
+    .member-address{
+        font-size: 14px !important;
+    }
+    .member-address1{
+        font-size: 14px !important;
+    }
+    .member-country{
+        font-size: 14px !important; 
+    }
+    .member-section-div6{
+        display: none !important;
+    }
+}
+@media only screen and (max-width:768px){
+    .membership-div5{
+        margin-left: -20px !important;
+    }
+    .membership-avatar{
+        width: 100px !important;
+        height:100px !important
+    }
+    .member-name{
+        font-size: 18px !important;
+        margin-left: 40px !important;
+       
+    }
+    .member-mechanic{
+        font-size: 14px !important;
+        margin-left: 40px !important;
+        
+    }
+    .btn-memeber-edit-profile{
+        margin-left: 30px !important;
+    }
+   
+    .member-location-icon{
+        font-size: 20px !important;
+    }
+    .member-mail-icon{
+        font-size: 20px !important;  
+    }
+    .member-call-icon{
+        font-size: 20px !important; 
+    }
+    .member-address{
+        font-size: 14px !important;
+    }
+    .member-address1{
+        font-size: 14px !important;
+    }
+    .member-country{
+        font-size: 14px !important; 
+    }
+    .member-section-div6{
+        display: none !important;
+    }
+    
+  
+}
+@media only screen and (max-width:425px){
+    .membership-div{
+        height:1000px;
+     
+    }
+    .membership-div5{
+        margin-left: 70px !important;
+    }
+    .membership-avatar{
+        width:80px !important;
+        height:80px !important;
+    }
+    .member-name{
+        font-size: 22px !important;
+        margin-left: 60px !important;
+    }
+    .member-mechanic{
+        font-size: 18px !important;
+        margin-left: 60px !important;
+    }
+    .btn-memeber-edit-profile{
+        margin-left: 50px !important;
+    }
+    .membership-div1{
+        height:900px;
+     
+    }
+   
+   
+}
+@media only screen and (max-width:320px){
+    .member-section-2{
+        margin-left: -30px !important;
+    }
+    .address-member{
+        font-size: 14px !important;
+    }
+    .member-location-icon{
+        font-size: 14px !important;
+    }
+    .member-mail-icon{
+        font-size: 14px !important;  
+    }
+    .member-call-icon{
+        font-size: 14px !important; 
+    }
+    .membership-div5{
+        margin-left: 15px !important;
+    }
+    .member-name{
+        font-size: 18px !important;
+        margin-left: 80px !important;
+    }
+    .member-mechanic{
+        font-size: 14px !important;
+        margin-left: 80px !important;
+    }
+    .btn-memeber-edit-profile{
+        margin-left: 70px !important;
+    }
+    .membership-div{
+      
+        width: 92% !important;
+       
+    }
+    .member-address{
+        font-size: 12px !important;
+    }
+    .member-address1{
+        font-size: 12px !important;
+    }
+    .member-country{
+        font-size: 12px !important; 
+    }
+    .membership-div1{
+       
+        width: 93% !important;
+
+    }
+}

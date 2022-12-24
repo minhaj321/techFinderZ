@@ -1,0 +1,25 @@
+.orderChatImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.orderChatImgDiv img{
+    width: 40%;
+}
+.orderChatMain{
+    background-color: #F9F9F9;
+}
+
+@media only screen and (max-width:899px){
+    .orderChatImgDiv img{
+        width: 70%;
+    }  
+}
+
+@media only screen and (max-width:599px){
+    .orderChatImgDiv img{
+        width: 0%;
+    }  
+}
