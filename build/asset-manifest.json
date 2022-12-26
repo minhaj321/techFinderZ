@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca24007f.css",
-    "main.js": "/static/js/main.3f0f8db2.js",
+    "main.css": "/static/css/main.3f3e09c6.css",
+    "main.js": "/static/js/main.7cd8f5bb.js",
     "static/js/787.d05a8db6.chunk.js": "/static/js/787.d05a8db6.chunk.js",
     "static/media/bald-mechanic-car-fixing.png": "/static/media/bald-mechanic-car-fixing.dd04871c7d4d240e0f55.png",
     "static/media/hero-image.png": "/static/media/hero-image.c7954ffb5500b384d287.png",
@@ -23,12 +23,12 @@
     "static/media/comake-logo.png": "/static/media/comake-logo.a2e1fc49b3135616cb0b.png",
     "static/media/vector2.svg": "/static/media/vector2.fb6891f4487fda38ca040b159cf5060e.svg",
     "index.html": "/index.html",
-    "main.ca24007f.css.map": "/static/css/main.ca24007f.css.map",
-    "main.3f0f8db2.js.map": "/static/js/main.3f0f8db2.js.map",
+    "main.3f3e09c6.css.map": "/static/css/main.3f3e09c6.css.map",
+    "main.7cd8f5bb.js.map": "/static/js/main.7cd8f5bb.js.map",
     "787.d05a8db6.chunk.js.map": "/static/js/787.d05a8db6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca24007f.css",
-    "static/js/main.3f0f8db2.js"
+    "static/css/main.3f3e09c6.css",
+    "static/js/main.7cd8f5bb.js"
   ]
 }

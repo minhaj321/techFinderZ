@@ -29,12 +29,17 @@ const OrderReceipt = () =>{
         createData( 'Brakes', 500, 1, 500),
         createData('EngineWork',500 , 1,500),
       ];
+
+      const clickHandler=()=>{}
+
     return(
       <>
       <Navbar/>
       {
         show &&
-        <PaymentModal show={show} setShow={setShow} />
+        <PaymentModal show={show} setShow={setShow} wallet={false} 
+        clickHandler={clickHandler}
+        />
       }
      <div className='order-receipt'>
          <div className='order-receipt-div'>

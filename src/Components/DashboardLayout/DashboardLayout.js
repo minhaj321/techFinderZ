@@ -17,11 +17,11 @@ const DashboardLayout = ({children,selected}) => {
     const navigate = useNavigate()
 
     const [lstArray,setLstArray] = useState([
-    {icon:<BadgeIcon/>,name:'Personal Information',to:()=>navigate('/')},
-    {icon:<WatchLaterOutlinedIcon/> ,name:'Schedule',to:()=>navigate('/')},
-    {icon:<LocalMallIcon/> ,name:'My Orders',to:()=>navigate('/')},
-    {icon:<AccountBalanceWalletIcon/> ,name:'Wallet',to:()=>navigate('/')},
-    {icon:<SettingsSharpIcon/> ,name:'Dispute',to:()=>navigate('/')}
+    {icon:<BadgeIcon/>,name:'Personal Information',to:()=>navigate('/personal-information')},
+    {icon:<WatchLaterOutlinedIcon/> ,name:'Schedule',to:()=>navigate('/schedule')},
+    {icon:<LocalMallIcon/> ,name:'My Orders',to:()=>navigate('/my-orders')},
+    {icon:<AccountBalanceWalletIcon/> ,name:'Wallet',to:()=>navigate('/wallet')},
+    {icon:<SettingsSharpIcon/> ,name:'Dispute',to:()=>navigate('/dispute')}
 ])
 const [open, setOpen] = useState(false);
 
@@ -39,7 +39,9 @@ const [open, setOpen] = useState(false);
     {
         lstArray.map((v,i)=>(
                 <div key={i} className='sidebarSubDiv'>
-                    <div className={selected==v.name ? 'sidebarCatDiv sidebarCatDivBlack' : 'sidebarCatDiv'}>
+                    <div className={selected==v.name ? 'sidebarCatDiv sidebarCatDivBlack' : 'sidebarCatDiv'}
+                    onClick={v.to}
+                    >
                         {v.icon}
                         <p>{v.name}</p>
                     </div>

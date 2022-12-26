@@ -55,6 +55,11 @@ import Chat from "./Views/Chat";
 import OrderWaiting from './Views/OrderWaiting/OrderWaiting.js';
 import OrderChat from './Views/OrderChat/OrderChat.js';
 import PersonalInformation from './Views/PersonalInformation/PersonalInformation.js';
+import MyOrders from './Views/MyOrders/MyOrders.js';
+import Dispute from './Views/Dispute/Dispute.js';
+import Schedule from './Views/Schedule/Schedule.js';
+import Wallet from './Views/Wallet/Wallet.js';
+
 
 function App() {
   return (
@@ -84,6 +89,11 @@ function App() {
         <Route path="/order-waiting" element={<OrderWaiting />} />
         <Route path="/order-chat" element={<OrderChat />} />
         <Route path="/personal-information" element={<PersonalInformation />} />
+        <Route path="/my-orders" element={<MyOrders />} />
+        <Route path="/dispute" element={<Dispute />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/wallet" element={<Wallet />} />
+        
         <Route path="/order-complete" element={<OrderComplete />} />
         <Route path="/order-receipt" element={<OrderReceipt />} />
 

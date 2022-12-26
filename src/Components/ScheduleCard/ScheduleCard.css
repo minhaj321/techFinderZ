@@ -1,0 +1,134 @@
+.myOrderCardMain,.scheduleCardMain{
+    padding: 30px 5%;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 2px #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.scheduleCardMain{
+    padding: 0px 0px 30px 0px;
+}
+.orderCardOrderNoBtn,.orderCardCompBtn,.orderCardDispBtn{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.orderCardOrderNoBtn{
+    color: #fff;
+    width: 80%;
+    height: 45px;
+    background-color:#9183F4;
+    border-radius: 10px;
+    margin: auto;
+}
+.orderCardCompBtn{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 20px;
+    background-color: #ECEDFC;
+}
+.orderCardDispBtn{
+    height: 40px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #9183F4;
+
+}
+
+.scheduleCardDetailsDiv{
+    font-size: 14px;
+    padding: 0px 5%;
+}
+.scheduleMapDiv{
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.scheduleRouteDiv{
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.scheduleRouteDate{
+    font-size: 10px;
+    font-weight: 600;
+}
+.scheduleCardRouteMainDiv{
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+}
+.scheduleCardRouteMainDivOne{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scheduleCardRouteMainDivTwo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    justify-content: space-between;
+    width: 95%;
+}
+.scheduleBlueDiv{
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 50px;
+}
+.scheduleGreenDiv{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50px;
+}
+.scheduleBlackDiv{
+    height: 100px;
+    width: 2px;
+    margin: 1px 0px;
+    background-color: lightgray;
+    border-radius: 50px;
+}
+.scheduleCardRouteMainDivTwoOne,.scheduleCardRouteMainDivTwoThree{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 10px;
+    color: gray;
+}
+.scheduleCardRouteMainDivTwoTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.scheduleCardRouteMainDivTwoOne span:nth-child(2),.scheduleCardRouteMainDivTwoThree span:nth-child(2){
+    font-size: 12px;
+    color: #000;
+}
+.scheduleCardRouteMainDivTwoTwo hr{
+width: 60%;
+}
+.scheduleCardRouteMainDivTwoTwo span{
+    font-weight: 600;
+    font-size: 10px;
+}

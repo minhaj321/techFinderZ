@@ -1,0 +1,48 @@
+.myOrderCardMain{
+    padding: 30px 5%;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 2px #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.orderCardOrderNoBtn,.orderCardCompBtn,.orderCardDispBtn{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.orderCardOrderNoBtn{
+    color: #fff;
+    width: 80%;
+    height: 45px;
+    background-color:#9183F4;
+    border-radius: 10px;
+    margin: auto;
+}
+.orderCardCompBtn{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 20px;
+    background-color: #ECEDFC;
+}
+.orderCardDispBtn{
+    height: 40px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #9183F4;
+
+}
+
+.myOrderCardDetailsDiv{
+    font-size: 14px;
+}

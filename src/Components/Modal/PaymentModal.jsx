@@ -8,12 +8,17 @@ import Cash from './../../Asset/cash.png';
 import './../../styles/PaymentModal.css';
 import CommentModal from '../CommentModal/CommentModal';
 
-const PaymentModal = ({show,setShow}) => {
+const PaymentModal = ({show,setShow,wallet,clickHandler}) => {
 
     const [open,setOpen] = useState(false)
-    const handleShow = () => setShow(true);
 
-    const [paymentTypes,setPaymentTypes] = useState([
+    const [paymentTypes,setPaymentTypes] = useState(wallet ? 
+        [
+            {icon : Paypal,title :'Paypal'},
+            {icon : Stripe,title :'Stripe'},
+        ]
+        : 
+        [
         {icon : Paypal,title :'Paypal'},
         {icon : Stripe,title :'Stripe'},
         {icon : Cash,title :'Cash'}
@@ -41,7 +46,9 @@ const PaymentModal = ({show,setShow}) => {
 {
     paymentTypes.map((v,i)=>(
         <>
-                    <Grid container key={i} className='modalTypes'>
+                    <Grid container key={i} className='modalTypes'
+                    onClick={()=>clickHandler()}
+                    >
                         <Grid item xs={11}>
                             <img alt={v.title} src={v.icon} className='modalImages' />
                             <span className='modalTitle'>
@@ -76,7 +83,14 @@ const PaymentModal = ({show,setShow}) => {
                             </Grid>
                             <Grid item xs={6} className='btnMain'>
                             <Button 
-                            onClick={()=>setOpen(true)}
+                            onClick={()=>{
+                                if(wallet){
+                                    setShow(false)
+                                }else{
+                                    setOpen(true)
+                                }
+                            }
+                            }
                             variant='outlined' style={{width:'200px',backgroundColor:'#3181C6',color:'white'}} className='modalBtn'>Next</Button>
                             </Grid>
                         </Grid>
